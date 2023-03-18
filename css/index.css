@@ -1,0 +1,137 @@
+body {
+    overflow: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+#navbar {
+    position: fixed;
+    /*background-color: rgba(0, 0, 0, 0);*/
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 86px;
+    /*padding: 1.125rem 3rem 1.125rem 3rem;*/
+    padding: 0 3rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    transition: background-color 0.3s;
+    z-index: 999;
+}
+
+#logo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#logo img {
+    height: 80%;
+}
+
+.nav-list {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+
+.nav-list li {
+    height: 100%;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 0 12px;
+    transition: background-color 0.2s;
+}
+
+.nav-list li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    scroll-behavior: smooth;
+}
+
+/*#header {*/
+/*    height: 100vh;*/
+
+/*    filter: brightness(60%);*/
+/*    z-index: 1;*/
+/*}*/
+#main {
+    position: relative;
+    top: 0;
+    transition: top 800ms ease;
+    touch-action: none;
+}
+
+.mainImg .bgc{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/maitian1.jpg");
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(60%);
+    z-index: -1;
+
+}
+.mainImg .title{
+    font-size: 36px;
+    color: white;
+}
+.mainImg .subtitle{
+    text-align: center;
+    margin-top: 36px;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+}
+.mainImg .but{
+    margin-top: 36px;
+    width: 136px;
+    height: 56px;
+    background-color: #e58fa6;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    transition:background-color 0.3s;
+}
+
+.mainImg .but:hover{
+    background-color: rgb(213, 128, 151);
+}
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+    /*border: 1px solid #ddd;*/
+
+
+}
