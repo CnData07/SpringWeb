@@ -11,7 +11,7 @@ body {
 #navbar {
     position: fixed;
     /*background-color: rgba(0, 0, 0, 0);*/
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0);
     width: 100%;
     height: 86px;
     /*padding: 1.125rem 3rem 1.125rem 3rem;*/
@@ -61,6 +61,7 @@ body {
 
 .nav-list li:hover {
     background-color: rgba(0, 0, 0, 0.1);
+
 }
 
 .nav-list li a {
@@ -84,7 +85,7 @@ body {
     touch-action: none;
 }
 
-.mainImg .bgc{
+.mainImg .bgc {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -92,22 +93,25 @@ body {
     background-position: center 0;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: brightness(60%);
+    filter: brightness(45%);
     z-index: -1;
 
 }
-.mainImg .title{
+
+.mainImg .title {
     font-size: 36px;
     color: white;
 }
-.mainImg .subtitle{
+
+.mainImg .subtitle {
     text-align: center;
     margin-top: 36px;
     font-size: 16px;
     line-height: 26px;
     color: white;
 }
-.mainImg .but{
+
+.mainImg .but {
     margin-top: 36px;
     width: 136px;
     height: 56px;
@@ -118,12 +122,15 @@ body {
     color: white;
     font-size: 18px;
     font-weight: 700;
-    transition:background-color 0.3s;
+    transition: background-color 0.3s;
 }
 
-.mainImg .but:hover{
-    background-color: rgb(213, 128, 151);
+.mainImg .but:hover {
+    background-color: rgba(213, 128, 151, 0);
+    border: 2px solid rgba(231, 156, 176, 1);
+    color: rgba(231, 156, 176, 1);
 }
+
 .page {
     display: flex;
     justify-content: center;

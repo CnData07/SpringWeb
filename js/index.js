@@ -51,6 +51,7 @@ if (navigator.userAgent.toLowerCase().indexOf('firefox') === -1) {
 }
 
 function scrollMove(e) {
+
     if (e.deltaY > 0) {
         goDown()
     } else {
