@@ -110,13 +110,12 @@ body {
 }
 
 .but {
-
     margin-top: 36px;
     width: 136px;
     height: 56px;
     background-color: #e58fa6;
     outline: none;
-    border: 0;
+    border: 2px solid transparent;
     border-radius: 5px;
     color: white;
     font-size: 18px;
@@ -125,7 +124,7 @@ body {
     text-align: center;
     text-decoration: none;
     transition: background-color 0.3s;
-    box-sizing: border-box;
+
 }
 
 .but:hover {
