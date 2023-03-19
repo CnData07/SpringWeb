@@ -8,6 +8,14 @@ var currentPosition = 0
 // 设置页面高度
 container.style.height = viewHeight + 'px'
 
+
+$(window).resize(function(){
+    container = document.querySelector('#main')
+    viewHeight = document.documentElement.clientHeight
+    container.style.height = viewHeight + 'px'
+})
+
+
 // 向下滚动页面
 function goDown() {
     if (currentPosition > -viewHeight * (pageNum - 1)) {
