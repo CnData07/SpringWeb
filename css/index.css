@@ -305,6 +305,7 @@ footer{
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+    font-size: 14px;
 }
 
 .main-footer-info{
