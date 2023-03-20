@@ -49,7 +49,7 @@
     margin-right: 10px;
 }
 .site-nav-list li{
-    line-height: 68px;
+    /*line-height: 68px;*/
     color: rgba(0, 0, 0, 0.49);
     padding: 0 8px;
     margin-left: 16px;
